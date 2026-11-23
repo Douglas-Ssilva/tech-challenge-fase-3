@@ -85,7 +85,7 @@ Se faltar memória (OOM) no treino, use `per_device_train_batch_size=1` e `gradi
 
 ## Limitações
 
-- Dados e protocolos sintéticos, sem revisão médica; **não usar na prática clínica**.
+- Dados e protocolos sintéticos, sem revisão médica; 
 - O fine-tuning memoriza protocolos e pode acrescentar ou omitir detalhes; doses e valores exigem conferência médica.
 - A validação mede formulações novas, não conteúdo novo.
 - O roteador é por regras: simples e auditável, mas frases muito diferentes do esperado podem cair na rota errada.
