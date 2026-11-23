@@ -90,11 +90,6 @@ Se faltar memória (OOM) no treino, use `per_device_train_batch_size=1` e `gradi
 - A validação mede formulações novas, não conteúdo novo.
 - O roteador é por regras: simples e auditável, mas frases muito diferentes do esperado podem cair na rota errada.
 - O índice vetorial fica em memória e é reconstruído a cada gravação, o que só serve para bases pequenas.
-- O fine-tuning não cita a fonte exata do protocolo.
-
-## Trabalhos futuros
-
-Indexar os protocolos também no RAG para citar o documento exato, trocar o roteador por um classificador, avaliar com especialistas e conteúdo inédito, adicionar datasets públicos (PubMedQA, MedQuAD), persistir o índice vetorial e adicionar autenticação e controle de acesso ao prontuário.
 
 ## Tecnologias
 
